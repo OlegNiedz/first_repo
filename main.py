@@ -65,4 +65,4 @@ date_part = datetime.date(24,2,3)
 time_part = datetime.datetime.now()
 
 print(date_part)
-print(time_part)  # Виведе type
+print(time_part)

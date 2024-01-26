@@ -58,11 +58,5 @@
 # print(type(a))
 # a=a/1
 # print(type(a))
-import datetime
 
-# Створення об'єктів date і time
-date_part = datetime.date(24,2,3)
-time_part = datetime.datetime.now()
 
-print(date_part)
-print(time_part)

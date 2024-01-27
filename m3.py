@@ -2,8 +2,15 @@
 import random
 import re
 from datetime import datetime as dtdt, timedelta
-
 strdate = '2020-10-09'
+d=""
+while True:
+    strdate = input("Ведіть дату (РРРР-ММ-ДД):")
+    try:
+        d = dtdt.strptime(strdate, '%Y-%m-%d')
+        break
+    except Exception as e:
+        print(e)
 
 def get_days_from_today(strdate):
     obj_date = dtdt.strptime(strdate, '%Y-%m-%d').toordinal()

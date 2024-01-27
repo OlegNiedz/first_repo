@@ -1,6 +1,6 @@
 #---------------task_1--------------
-from ast import match_case
 import random
+import re
 from datetime import datetime as dtdt, timedelta
 
 strdate = '2020-10-09'
@@ -30,8 +30,6 @@ print(f"\n-------------------Task2-----------------\nВиграшні лотер
 print(f"Виграшні лотерейні числа (6 з 49):{get_numbers_ticket(1,49,6)}")
 
 #---------------task_3-------------
-
-import re
 
 raw_numbers = [
     "067\t123 4567",
@@ -87,4 +85,4 @@ def get_upcoming_birthdays(users):
               
     return upcoming_birthdays
 
-print(f"\n-------------------Task4-----------------\n{get_upcoming_birthdays(users)}")
+print(f"\n-------------------Task4-----------------\n{get_upcoming_
